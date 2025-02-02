@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lab</groupId>
-    <artifactId>MiProyectoFunciones</artifactId>
+    <artifactId>azure-functions-demo-01</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -14,7 +14,7 @@
         <java.version>17</java.version>
         <azure.functions.maven.plugin.version>1.24.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>2.2.0</azure.functions.java.library.version>
-        <functionAppName>miproyectofunciones-20250202164839197</functionAppName>
+        <functionAppName>azure-functions-demo-01-20250202164839197</functionAppName>
     </properties>
 
     <dependencies>
