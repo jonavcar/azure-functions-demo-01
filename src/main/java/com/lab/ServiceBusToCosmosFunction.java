@@ -34,7 +34,7 @@ public class ServiceBusToCosmosFunction {
 
     String[] extractedData = extractAccountAndStatus(message);
     if (extractedData != null) {
-      String accountId = extractedData[0];
+      String accountId = extractedData[0]+"0000";
       String status = extractedData[1];
       Account account = new Account(accountId, status);
       outputItem.setValue(account);
